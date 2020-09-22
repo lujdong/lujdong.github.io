@@ -1,0 +1,8 @@
+User-agent: *
+
+Allow: /
+
+Disallow:
+
+Sitemap: https://lujiandong.com/sitemap.xml
+Sitemap: https://lujiandong.com/baidusitemap.xml
