@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://lujiandong.com/posts/9558d3c7816a/</loc>
+    
+    <lastmod>2020-11-05</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://lujiandong.com/posts/d4aa8785584a/</loc>
     
     <lastmod>2020-11-04</lastmod>
@@ -65,14 +72,14 @@
   </url>
   
   <url>
-    <loc>https://lujiandong.com/about/index.html</loc>
+    <loc>https://lujiandong.com/categories/index.html</loc>
     
     <lastmod>2020-09-21</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lujiandong.com/categories/index.html</loc>
+    <loc>https://lujiandong.com/about/index.html</loc>
     
     <lastmod>2020-09-21</lastmod>
     
@@ -88,7 +95,7 @@
 
   <url>
     <loc>https://lujiandong.com/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2020-11-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -96,70 +103,70 @@
   
   <url>
     <loc>https://lujiandong.com/tags/CSS/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2020-11-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://lujiandong.com/tags/Hexo/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2020-11-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://lujiandong.com/tags/JavaScript/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2020-11-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://lujiandong.com/tags/React/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2020-11-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://lujiandong.com/tags/%E7%BB%84%E4%BB%B6%E4%BC%A0%E5%80%BC/</loc>
-    <lastmod>2020-11-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://lujiandong.com/tags/%E5%B8%83%E5%B1%80/</loc>
-    <lastmod>2020-11-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://lujiandong.com/tags/css/</loc>
-    <lastmod>2020-11-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://lujiandong.com/tags/flex/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2020-11-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://lujiandong.com/tags/%E7%BD%91%E5%9D%80%E5%AF%BC%E8%88%AA/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2020-11-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://lujiandong.com/tags/%E5%B8%83%E5%B1%80/</loc>
+    <lastmod>2020-11-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://lujiandong.com/tags/css/</loc>
+    <lastmod>2020-11-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://lujiandong.com/tags/flex/</loc>
+    <lastmod>2020-11-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://lujiandong.com/tags/Vue/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2020-11-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -168,49 +175,49 @@
   
   <url>
     <loc>https://lujiandong.com/categories/CSS/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2020-11-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://lujiandong.com/categories/Hexo/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2020-11-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://lujiandong.com/categories/JavaScript/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2020-11-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://lujiandong.com/categories/React/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2020-11-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://lujiandong.com/categories/%E7%BD%91%E5%9D%80%E5%AF%BC%E8%88%AA/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2020-11-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://lujiandong.com/categories/Vue/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2020-11-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://lujiandong.com/categories/React/%E7%BB%84%E4%BB%B6%E4%BC%A0%E5%80%BC/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2020-11-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

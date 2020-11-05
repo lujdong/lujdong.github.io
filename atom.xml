@@ -139,6 +139,30 @@
   </entry>
   
   <entry>
+    <title>CSS选择器</title>
+    <link href="https://lujiandong.com/posts/9558d3c7816a/"/>
+    <id>https://lujiandong.com/posts/9558d3c7816a/</id>
+    <published>2020-09-08T01:01:24.000Z</published>
+    <updated>2020-11-05T02:45:10.026Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>当我们学习CSS时最先接触的肯定就是选择器，选择器也是CSS中最为基础的一部分，基本上我们了解到一些CSS的基本选择器、伪类选择器等就可以完成大部分工作。<br>但是当我们了解到更多的选择器后是可以提升一大截开发体验的，当我发现需要用到某种没用过的选择器时，总是需要网上搜索一番，不如自己整理一下自己实践。</p><p>目前来说，CSS选择器分为以下几类：</p><ul><li>基本选择器</li><li>组合选择器</li><li>属性选择器</li><li>伪类选择器</li><li>伪元素选择器</li></ul><p>然后，每种类型的选择器又有若干的选择器。</p><h2 id="基本选择器"><a href="#基本选择器" class="headerlink" title="基本选择器"></a>基本选择器</h2><p>基本选择器基本上来说是我们使用频率最高的选择器，它主要通过类名，标签名等来匹配文档树中的元素。</p><p>基本选择器主要是以下几种选择器：</p><table><thead><tr><th align="left">选择器</th><th align="left">用法</th><th align="left">含义</th></tr></thead><tbody><tr><td align="left">通用选择器</td><td align="left">*</td><td align="left">匹配所有选择器</td></tr><tr><td align="left">标签选择器</td><td align="left">div</td><td align="left">匹配所有div元素</td></tr><tr><td align="left">类名选择器</td><td align="left">.selector</td><td align="left">匹配所有<code>class=&quot;selector&quot;</code>的元素</td></tr><tr><td align="left">id选择</td><td align="left">#nav</td><td align="left">匹配所有<code>id=&quot;nav&quot;</code>的元素</td></tr></tbody></table><h2 id="组合选择器"><a href="#组合选择器" class="headerlink" title="组合选择器"></a>组合选择器</h2><p>组合选择器，顾名思义，就是通过多种选择器组合起来进行匹配，它常常有以下几种用法：</p><table><thead><tr><th align="left">选择器</th><th align="left">用法</th><th align="left">含义</th></tr></thead><tbody><tr><td align="left">多元素选择器</td><td align="left">div,p</td><td align="left">匹配所有div和p元素</td></tr><tr><td align="left">后代选择器</td><td align="left">div p</td><td align="left">匹配所有作为div的后代元素的p元素</td></tr><tr><td align="left">子元素选择器</td><td align="left">div&gt;p</td><td align="left">匹配所有作为div子元素的p元素</td></tr><tr><td align="left">相邻元素选择器</td><td align="left">div+p</td><td align="left">匹配紧随div元素之后的p元素</td></tr><tr><td align="left">同级元素选择器</td><td align="left">div~p</td><td align="left">匹配在div元素之后的所有p元素</td></tr><tr><td align="left">交叉选择器</td><td align="left">div.box</td><td align="left">匹配所有<code>class=&quot;box&quot;</code>的div元素</td></tr></tbody></table><h2 id="属性选择器"><a href="#属性选择器" class="headerlink" title="属性选择器"></a>属性选择器</h2><p>属性选择器主要是通过元素中的属性来进行匹配。</p><table><thead><tr><th>选择器</th><th>含义</th></tr></thead><tbody><tr><td>E[att]</td><td>匹配所有具有att属性的E元素。E在此处可以省略，如”[cheacked]”，下同。）</td></tr><tr><td>E[att=val]</td><td>匹配所有att属性等于val的E元素</td></tr><tr><td>E[att~=val]</td><td>匹配所有att属性具有多个值，其中一个值等于val的E元素</td></tr><tr><td>E[att|=val]</td><td>匹配所有att属性具有多个连字符分隔的值，其中一个值已val开头的元素</td></tr><tr><td>E[att^=”val”]</td><td>匹配属性att的值以val开头的元素</td></tr><tr><td>E[att$=”val”]</td><td>匹配属性att的值以val结尾的元素</td></tr><tr><td>E[att*=”val”]</td><td>匹配属性att的值中包含val的元素</td></tr></tbody></table><h2 id="伪类选择器"><a href="#伪类选择器" class="headerlink" title="伪类选择器"></a>伪类选择器</h2><h3 id="用来选择元素的伪类"><a href="#用来选择元素的伪类" class="headerlink" title="用来选择元素的伪类"></a>用来选择元素的伪类</h3><table><thead><tr><th>选择器</th><th>含义</th></tr></thead><tbody><tr><td>E:root</td><td>匹配文档的根元素，等同于HTML元素</td></tr><tr><td>E:first-child</td><td>匹配父元素下面的第一个子元素E</td></tr><tr><td>E:last-child</td><td>匹配父元素下面的最后一个子元素E</td></tr><tr><td>E:first-of-type</td><td>匹配父元素下使用同种标签的第一个子元素E</td></tr><tr><td>E:last-of-type</td><td>匹配父元素下使用同种标签的最后一个子元素E</td></tr><tr><td>E:nth-child(n)</td><td>匹配父元素的第n个子元素</td></tr><tr><td>E:nth-last-child(n)</td><td>匹配父元素的倒数第n个子元素</td></tr><tr><td>E:nth-of-type(n)</td><td>匹配父元素第n个使用同种标签的子元素</td></tr><tr><td>E:nth-last-of-type</td><td>匹配父元素的倒数第n个使用同种标签的元素</td></tr><tr><td>E:only-child</td><td>匹配父元素下唯一的一个一个子元素</td></tr><tr><td>E:only-of-type</td><td>匹配父元素下使用同种标签的唯一一个子元素</td></tr><tr><td>E:empty</td><td>匹配不含任何子元素和内容的元素</td></tr><tr><td>E:not(s)</td><td>匹配不符合当前选择器的所有元素E</td></tr><tr><td>E:target</td><td>匹配特定id通过锚链接定位到的元素</td></tr></tbody></table><h3 id="表单伪类"><a href="#表单伪类" class="headerlink" title="表单伪类"></a>表单伪类</h3><table><thead><tr><th>选择器</th><th>含义</th></tr></thead><tbody><tr><td>E:enable</td><td>匹配表单中所有激活的E元素</td></tr><tr><td>E:disabled</td><td>匹配表单中所有禁用的E元素</td></tr><tr><td>E:checked</td><td>匹配表单中被选中的E元素</td></tr><tr><td>E::selection</td><td>匹配所有被选中的E元素</td></tr><tr><td>E:focus</td><td>匹配当前获取焦点的E元素</td></tr><tr><td>E:blur</td><td>匹配当前失去焦点的E元素</td></tr></tbody></table><h3 id="链接伪类"><a href="#链接伪类" class="headerlink" title="链接伪类"></a>链接伪类</h3><table><thead><tr><th>选择器</th><th>含义</th></tr></thead><tbody><tr><td>E:link</td><td>匹配所有还未被点击的链接</td></tr><tr><td>E:visited</td><td>匹配所有已被点击的链接</td></tr><tr><td>E:active</td><td>匹配鼠标已经按下，但还没有松开的E元素</td></tr><tr><td>E:hover</td><td>匹配鼠标悬浮其上的E元素</td></tr></tbody></table><h2 id="伪元素选择器"><a href="#伪元素选择器" class="headerlink" title="伪元素选择器"></a>伪元素选择器</h2><table><thead><tr><th>选择器</th><th>含义</th></tr></thead><tbody><tr><td>E:first-line</td><td>匹配元素的第一行内容</td></tr><tr><td>E:first-letter</td><td>匹配E元素的第一个字符</td></tr><tr><td>E:before</td><td>匹配E元素之前插入的元素</td></tr><tr><td>E:after</td><td>匹配E元素之后插入的元素</td></tr></tbody></table><h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>目前css选择器肯定是不止现在这些，应该会有不少漏掉的，选择器分类主要根据网上一些资料以及自己根据相关性进行分类，有些选择器用法来自于网络，由于来源太多就不一一贴出了。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;当我们学习CSS时最先接触的肯定就是选择器，选择器也是CSS中最为基础的一部分，基本上我们了解到一些CSS的基本选择器、伪类选择器等就可以完</summary>
+      
+    
+    
+    
+    <category term="CSS" scheme="https://lujiandong.com/categories/CSS/"/>
+    
+    
+    <category term="CSS" scheme="https://lujiandong.com/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
     <title>JavaScript 中的数组方法</title>
     <link href="https://lujiandong.com/posts/1138bfd8771a/"/>
     <id>https://lujiandong.com/posts/1138bfd8771a/</id>
